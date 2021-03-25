@@ -1,0 +1,12 @@
+.site-footer {
+   background: $lightGrey;
+   p {
+       color: $darkBlue;
+       font-weight: 600;
+
+       a {
+           color: $darkBlue;
+           font-weight: 900;
+       }
+   }
+}

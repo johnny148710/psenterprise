@@ -1,0 +1,135 @@
+#gform_wrapper_1 {
+
+    .gform_heading {
+        .gform_title {
+            display: none;
+        }
+    }
+
+    .gform_body {
+
+        h3 {
+            font-weight: 700;
+            padding: 2rem 5rem 1rem 0;
+            color: $grey;
+            display: inline-block;
+            border-bottom: 4px solid $darkBlue;
+        }
+
+        label {
+            text-transform: uppercase;
+        }
+    }
+
+    h2 {
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    li {
+        width: 50% !important;
+        clear: none !important;
+        float: left;
+
+        @include media-breakpoint-down(sm) {
+            width: 100% !important;
+        }
+
+        &#field_1_9,
+        &#field_1_3,
+        &#field_1_15,
+        &#field_1_10,
+        &#field_1_20,
+        &#field_1_18,
+        &#field_1_14,
+        &#field_1_22,
+        &#field_1_21,
+        &#field_1_23,
+        &#field_1_25,
+        &#field_1_24 {
+            width: 100% !important;
+        }
+
+        &#input_1_14_1 {
+            width: initial !important;
+        }
+
+        &#field_1_19 {
+            width: 50% !important;
+            clear: both !important;
+
+            input {
+                &[type="button"] {
+                    width: 200px !important;
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        // &#field_1_28 {
+        //     display: none !important;
+        // }
+    }
+
+    input {
+        width: 100%;
+        border: 1px solid $darkBlue;
+        border-radius: 5px;
+        color: $grey;
+        padding: 0.5rem;
+
+        &[type="submit"] {
+            background: $orange;
+            display: block;
+            margin: 0 auto;
+            width: 270px;
+            padding: 0.5rem 1rem;
+            font-weight: 100;
+            color: $white;
+            border: 3px solid transparent;
+            font-size: 1.5rem;
+
+            &:hover {
+                border-color: $orange;
+                color: $orange;
+                background: transparent;
+            }
+        }
+
+        &#input_1_14_1,
+        &#gf_coupon_code_1,
+        &#ginput_quantity_1_17 {
+            width: initial !important;
+        }
+    }
+
+    select {
+        width: 100%;
+        border: 1px solid $darkBlue;
+        border-radius: 5px;
+        padding: 0.5rem;
+    }
+
+    .gfield_checkbox {
+        li {
+            width: 33.333% !important;
+
+            input {
+                width: initial !important;
+            }
+        }
+    }
+}
+.gform_wrapper span.ginput_product_price {
+    color: $darkBlue !important;
+    font-weight: 900;            
+} 
+
+.gform_wrapper .field_description_below .gfield_consent_description,
+.gform_wrapper .gfield_consent_description {
+    width: 50% !important;
+}
+
+.gform_confirmation_wrapper {
+    padding: 3rem 0;
+}
